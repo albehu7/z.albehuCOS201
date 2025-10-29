@@ -12,7 +12,7 @@ int main() {
     cin >> b;
 
     // Using Pythagoras theorem
-    c = sqrt((a * a) + (b * b));
+    c = sqrt(pow(a, 2) + pow(b, 2));
 
     cout << "The hypotenuse of the triangle is: " << c << endl;
 
